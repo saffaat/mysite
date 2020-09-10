@@ -5,38 +5,6 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
 }
-
-h1 {
-  color: #66BFBF;
-  font-size: 5.625rem;
-  margin: 50px auto 0 auto;
-  font-family: 'Sacramento', cursive;
-}
-
-h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem;
-  font-weight: normal;
-  padding-bottom: 10px;
-}
-
-h3 {
-  color: #11999E;
-  font-family: 'Montserrat', sans-serif;
-}
-
-p {
-  line-height: 2;
-}
-
-hr {
-  border: dotted #EAF6F6 6px;
-  border-bottom: none;
-  width: 4%;
-  margin: 100px auto;
-}
-
 a{
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
@@ -47,59 +15,89 @@ a{
 a:hover {
   color: #EAF6F6;
 }
-
-.top-container {
-  background-color: #E4F9F5;
-  position: relative;
-  padding-top: 100px;
+/*  angela colour-66BFBF  */
+h1 {
+  color: #1e836c;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
 }
 
-.middle-container {
-  margin: 100px 0;
+h2 {
+  color: #1e836c;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 180%;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+/*angela colour-11999E*/
+h3 {
+  color: #45b29a;
+  font-family: 'Montserrat', sans-serif;
+}
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+p {
+  line-height: 2;
 }
 
 .bottom-container {
   background-color: #66BFBF;
   padding: 50px 0 20px;
 }
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto 100px auto;
-  text-align: left;
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
 }
-
-.pro {
-  text-decoration: underline;
+.code-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
-
-.intro {
-  width: 30%;
-  margin: auto;
-}
-
-
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
 }
-
 .copyright {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
 }
-
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.info{
+  color:#11999E;
+}
+.info:hover{
+  color:#EAF6F6;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.pro {
+  text-decoration: underline;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+} /* angela colour-E4F9F5    */
+.top-container {
+  background-color: #cbeaed;
+  position: relative;
+  padding-top: 100px;
+}
 .top-cloud {
   position: absolute;
   right: 200px;
   top: 100px;
-}
-
-.bottom-cloud {
-  position: absolute;
-  left: 250px;
-  bottom: 300px;
 }
 .what-want {
   width: 25%;
@@ -107,27 +105,11 @@ a:hover {
   margin-right: 30px;
 }
 
-.code-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
 .what-need{
   width: 25%;
   float: right;
   margin-left:30px;
 }
-
-.chilli-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-.footer-link{
-  color: white;
-  text-decoration: underline;
-}
-
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
